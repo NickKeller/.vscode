@@ -1,0 +1,168 @@
+{
+	"name": "datetime",
+	"displayName": "Date & Time",
+	"description": "Displays a clock and date information in the status bar.",
+	"version": "1.0.5",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rid9/DateTime.git"
+	},
+	"bugs": "https://github.com/rid9/DateTime/issues",
+	"icon": "images/icon.png",
+	"publisher": "rid9",
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Date & Time Configuration",
+			"properties": {
+				"dateTime.showOnStartup": {
+					"type": "boolean",
+					"default": true,
+					"description": "Show date & time on startup."
+				},
+				"dateTime.use24HourClock": {
+					"type": "boolean",
+					"default": true,
+					"description": "Use a 24 hour clock.",
+					"dateTime_example": "**18**:43"
+				},
+				"dateTime.showAMPM": {
+					"type": "boolean",
+					"default": false,
+					"description": "Show AM/PM.",
+					"dateTime_example": "7:43 **PM**"
+				},
+				"dateTime.showDayOfWeek": {
+					"type": "boolean",
+					"default": false,
+					"description": "Show the day of the week.",
+					"dateTime_example": "**Fri** 1 Jul"
+				},
+				"dateTime.showDayOfMonth": {
+					"type": "boolean",
+					"default": false,
+					"description": "Show the day of the month.",
+					"dateTime_example": "Fri **1** Jul"
+				},
+				"dateTime.showMonth": {
+					"type": "boolean",
+					"default": false,
+					"description": "Show the month.",
+					"dateTime_example": "Fri 1 **Jul**"
+				},
+				"dateTime.showHours": {
+					"type": "boolean",
+					"default": true,
+					"description": "Show hours.",
+					"dateTime_example": "**18**:43"
+				},
+				"dateTime.showMinutes": {
+					"type": "boolean",
+					"default": true,
+					"description": "Show minutes.",
+					"dateTime_example": "18:**43**"
+				},
+				"dateTime.showSeconds": {
+					"type": "boolean",
+					"default": false,
+					"description": "Show seconds.",
+					"dateTime_example": "18:43:**12**"
+				},
+				"dateTime.padDays": {
+					"type": "boolean",
+					"default": false,
+					"description": "Pad the day of the month with a leading 0.",
+					"dateTime_example": "Fri **01** Jul"
+				},
+				"dateTime.padHours": {
+					"type": "boolean",
+					"default": true,
+					"description": "Pad hours with a leading 0.",
+					"dateTime_example": "**09**:43"
+				},
+				"dateTime.padMinutes": {
+					"type": "boolean",
+					"default": true,
+					"description": "Pad minutes with a leading 0.",
+					"dateTime_example": "18:**03**"
+				},
+				"dateTime.padSeconds": {
+					"type": "boolean",
+					"default": true,
+					"description": "Pad seconds with a leading 0.",
+					"dateTime_example": "18:43:**04**"
+				},
+				"dateTime.flashTimeSeparators": {
+					"type": "boolean",
+					"default": false,
+					"description": "Flash the time separators."
+				},
+				"dateTime.timeSeparator": {
+					"type": "string",
+					"default": ":",
+					"description": "Time separator character."
+				},
+				"dateTime.timeSeparatorOff": {
+					"type": "string",
+					"default": " ",
+					"description": "Flashing time separator character."
+				},
+				"dateTime.customFormat": {
+					"type": [
+						"string",
+						"null"
+					],
+					"default": null,
+					"description": "Use a custom date & time format."
+				},
+				"dateTime.fractionalPrecision": {
+					"type": [
+						"number",
+						"null"
+					],
+					"default": null,
+					"description": "Update interval divisor for fractional seconds.",
+					"minimum": 1,
+					"maximum": 100
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "dateTime.show",
+				"title": "Show Date & Time"
+			},
+			{
+				"command": "dateTime.hide",
+				"title": "Hide Date & Time"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile && node ./doc.js",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"typescript": "^1.7.5",
+		"vscode": "^0.11.0"
+	},
+	"dependencies": {
+		"moment": "^2.11.2"
+	},
+	"__metadata": {
+		"id": "7b69248c-488a-4a74-ae29-56822156726f",
+		"publisherId": "cf23f73d-3fd4-4248-907b-b95661448acc",
+		"publisherDisplayName": "rid9"
+	}
+}

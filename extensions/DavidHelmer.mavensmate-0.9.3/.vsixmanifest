@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="mavensmate" Version="0.9.3" Publisher="DavidHelmer"/>
+    <DisplayName>mavensmate</DisplayName>
+    <Description xml:space="preserve">MavensMate Salesforce plugin for the Visual Studio Code editor</Description>
+    <Tags>apex,Apex,__ext_.apex,__ext_.cls,__ext_.trigger,__ext_.tgr,visualforce,Visualforce,__ext_.component,__ext_.page,staticResource,__ext_.resource,xml,__ext_.object,__ext_.layout,__ext_.remoteSite,__ext_.labels,__ext_.app,__ext_.dashboard,__ext_.permissionset,__ext_.workflow,__ext_.email,__ext_.profile,__ext_.scf,__ext_.queue,__ext_.reportType,__ext_.report,__ext_.weblink,__ext_.tab,__ext_.letter,__ext_.role,__ext_.homePageComponent,__ext_.homePageLayout,__ext_.objectTranslation,__ext_.flow,__ext_.datacategorygroup,__ext_.snapshot,__ext_.site,__ext_.sharingRules,__ext_.settings,__ext_.callCenter,__ext_.community,__ext_.authProvider,__ext_.customApplicationComponent,__ext_.quickAction,__ext_.approvalProcess,__ext_.auradoc,__ext_.cmp,__ext_.evt,__ext_.tokens,__ext_.design,log,__ext_.log</Tags>
+    <Categories>Other</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.1.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/kidtsunami/MavensMate-VisualStudioCode" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/kidtsunami/MavensMate-VisualStudioCode" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/kidtsunami/MavensMate-VisualStudioCode" />
+        
+      
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/joeferraro/MavensMate/issues" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="http://mavensmate.com/" />
+      
+      
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      
+      
+    </Properties>
+    <License>extension/LICENSE.txt</License>
+    <Icon>extension/icon.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/icon.png" Addressable="true" />
+  </Assets>
+</PackageManifest>

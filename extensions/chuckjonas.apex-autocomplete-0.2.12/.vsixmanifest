@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="apex-autocomplete" Version="0.2.12" Publisher="chuckjonas"/>
+    <DisplayName>Salesforce Language Support</DisplayName>
+    <Description xml:space="preserve">Add language support tooling (code-completion, symbols, syntax check) for the Salesforce&#39;s Apex language.  Previously named &#39;Salesforce Auto-Complete +&#39;</Description>
+    <Tags>Apex,VisualForce,IntelliSense,Salesforce,Code Completion,apex,__ext_.cls,__ext_.trigger,visualforce,Visualforce,__ext_.component,__ext_.page</Tags>
+    <Categories>Languages</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.5.1" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/ChuckJonas/vscode-apex-autocomplete.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/ChuckJonas/vscode-apex-autocomplete.git" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/ChuckJonas/vscode-apex-autocomplete.git" />
+        
+      
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/ChuckJonas/vscode-apex-autocomplete/issues" />
+      
+      
+      
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+    </Properties>
+    
+    <Icon>extension/images/apex-complete-icon.svg</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/apex-complete-icon.svg" Addressable="true" />
+  </Assets>
+</PackageManifest>

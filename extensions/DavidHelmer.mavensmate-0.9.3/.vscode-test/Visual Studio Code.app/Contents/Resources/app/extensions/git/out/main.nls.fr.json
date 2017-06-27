@@ -1,0 +1,5 @@
+[
+	"Utilisation de git {0} à partir de {1}",
+	"Mettre à jour Git",
+	"Il semble que git {0} soit installé. Code fonctionne mieux avec git >= 2"
+]

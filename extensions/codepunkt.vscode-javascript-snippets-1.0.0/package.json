@@ -1,0 +1,55 @@
+{
+	"name": "vscode-javascript-snippets",
+	"description": "Code snippets for JavaScript and React",
+	"version": "1.0.0",
+	"displayName": "JavaScript Snippets",
+	"publisher": "codepunkt",
+	"icon": "images/javascript.png",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gonsfx/vscode-javascript-snippets"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"tags": [
+		"vscode",
+		"VSCode",
+		"Visual Studio Code",
+		"Snippets",
+		"JavaScript"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "31c5e3ca-3ef1-436f-98bc-72f12dd2758b",
+		"publisherId": "bf9b78ac-e7be-43b4-8798-f92e3b5c03a6",
+		"publisherDisplayName": "codepunkt"
+	}
+}

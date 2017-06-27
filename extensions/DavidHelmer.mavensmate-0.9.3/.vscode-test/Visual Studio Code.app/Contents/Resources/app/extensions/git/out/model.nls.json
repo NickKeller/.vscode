@@ -1,0 +1,16 @@
+{
+	"messages": [
+		"Open",
+		"Merge Changes",
+		"Staged Changes",
+		"Changes",
+		"Could not show object"
+	],
+	"keys": [
+		"open",
+		"merge changes",
+		"staged changes",
+		"changes",
+		"cantshow"
+	]
+}

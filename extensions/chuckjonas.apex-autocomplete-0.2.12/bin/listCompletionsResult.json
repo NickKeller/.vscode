@@ -1,0 +1,115 @@
+RESULT=SUCCESS
+{"realIdentity":"abbreviateInteger","signature":"public String abbreviate(Integer maxWidth)","doc":"","identity":"abbreviate","type":"String","visibility":"public"}
+{"realIdentity":"abbreviateInteger, Integer","signature":"public String abbreviate(Integer maxWidth, Integer offset)","doc":"","identity":"abbreviate","type":"String","visibility":"public"}
+{"realIdentity":"addErrorAPEX_OBJECT","signature":"public void addError(APEX_OBJECT msg)","doc":"","identity":"addError","type":"void","visibility":"public"}
+{"realIdentity":"addErrorAPEX_OBJECT, Boolean","signature":"public void addError(APEX_OBJECT msg, Boolean escape)","doc":"","identity":"addError","type":"void","visibility":"public"}
+{"realIdentity":"addErrorString","signature":"public void addError(String msg)","doc":"","identity":"addError","type":"void","visibility":"public"}
+{"realIdentity":"addErrorString, Boolean","signature":"public void addError(String msg, Boolean escape)","doc":"","identity":"addError","type":"void","visibility":"public"}
+{"realIdentity":"capitalize","signature":"public String capitalize()","doc":"","identity":"capitalize","type":"String","visibility":"public"}
+{"realIdentity":"centerInteger","signature":"public String center(Integer size)","doc":"","identity":"center","type":"String","visibility":"public"}
+{"realIdentity":"centerInteger, String","signature":"public String center(Integer size, String padStr)","doc":"","identity":"center","type":"String","visibility":"public"}
+{"realIdentity":"charAtInteger","signature":"public Integer charAt(Integer index)","doc":"","identity":"charAt","type":"Integer","visibility":"public"}
+{"realIdentity":"codePointAtInteger","signature":"public Integer codePointAt(Integer index)","doc":"","identity":"codePointAt","type":"Integer","visibility":"public"}
+{"realIdentity":"codePointBeforeInteger","signature":"public Integer codePointBefore(Integer index)","doc":"","identity":"codePointBefore","type":"Integer","visibility":"public"}
+{"realIdentity":"codePointCountInteger, Integer","signature":"public Integer codePointCount(Integer beginIndex, Integer endIndex)","doc":"","identity":"codePointCount","type":"Integer","visibility":"public"}
+{"realIdentity":"compareToString","signature":"public Integer compareTo(String str)","doc":"","identity":"compareTo","type":"Integer","visibility":"public"}
+{"realIdentity":"containsAnyString","signature":"public Boolean containsAny(String validChars)","doc":"","identity":"containsAny","type":"Boolean","visibility":"public"}
+{"realIdentity":"containsIgnoreCaseString","signature":"public Boolean containsIgnoreCase(String searchStr)","doc":"","identity":"containsIgnoreCase","type":"Boolean","visibility":"public"}
+{"realIdentity":"containsNoneString","signature":"public Boolean containsNone(String invalidChars)","doc":"","identity":"containsNone","type":"Boolean","visibility":"public"}
+{"realIdentity":"containsOnlyString","signature":"public Boolean containsOnly(String validChars)","doc":"","identity":"containsOnly","type":"Boolean","visibility":"public"}
+{"realIdentity":"containsString","signature":"public Boolean contains(String str)","doc":"","identity":"contains","type":"Boolean","visibility":"public"}
+{"realIdentity":"containsWhitespace","signature":"public Boolean containsWhitespace()","doc":"","identity":"containsWhitespace","type":"Boolean","visibility":"public"}
+{"realIdentity":"countMatchesString","signature":"public Integer countMatches(String searchStr)","doc":"","identity":"countMatches","type":"Integer","visibility":"public"}
+{"realIdentity":"deleteWhitespace","signature":"public String deleteWhitespace()","doc":"","identity":"deleteWhitespace","type":"String","visibility":"public"}
+{"realIdentity":"differenceString","signature":"public String difference(String other)","doc":"","identity":"difference","type":"String","visibility":"public"}
+{"realIdentity":"endsWithIgnoreCaseString","signature":"public Boolean endsWithIgnoreCase(String suffix)","doc":"","identity":"endsWithIgnoreCase","type":"Boolean","visibility":"public"}
+{"realIdentity":"endsWithString","signature":"public Boolean endsWith(String str)","doc":"","identity":"endsWith","type":"Boolean","visibility":"public"}
+{"realIdentity":"equalsIgnoreCaseString","signature":"public Boolean equalsIgnoreCase(String other)","doc":"","identity":"equalsIgnoreCase","type":"Boolean","visibility":"public"}
+{"realIdentity":"equalsObject","signature":"public Boolean equals(Object other)","doc":"","identity":"equals","type":"Boolean","visibility":"public"}
+{"realIdentity":"escapeCsv","signature":"public String escapeCsv()","doc":"","identity":"escapeCsv","type":"String","visibility":"public"}
+{"realIdentity":"escapeEcmaScript","signature":"public String escapeEcmaScript()","doc":"","identity":"escapeEcmaScript","type":"String","visibility":"public"}
+{"realIdentity":"escapeHtml3","signature":"public String escapeHtml3()","doc":"","identity":"escapeHtml3","type":"String","visibility":"public"}
+{"realIdentity":"escapeHtml4","signature":"public String escapeHtml4()","doc":"","identity":"escapeHtml4","type":"String","visibility":"public"}
+{"realIdentity":"escapeJava","signature":"public String escapeJava()","doc":"","identity":"escapeJava","type":"String","visibility":"public"}
+{"realIdentity":"escapeUnicode","signature":"public String escapeUnicode()","doc":"","identity":"escapeUnicode","type":"String","visibility":"public"}
+{"realIdentity":"escapeXml","signature":"public String escapeXml()","doc":"","identity":"escapeXml","type":"String","visibility":"public"}
+{"realIdentity":"getChars","signature":"public List<Integer> getChars()","doc":"","identity":"getChars","type":"List<Integer>","visibility":"public"}
+{"realIdentity":"getLevenshteinDistanceString","signature":"public Integer getLevenshteinDistance(String other)","doc":"","identity":"getLevenshteinDistance","type":"Integer","visibility":"public"}
+{"realIdentity":"getLevenshteinDistanceString, Integer","signature":"public Integer getLevenshteinDistance(String other, Integer threshold)","doc":"","identity":"getLevenshteinDistance","type":"Integer","visibility":"public"}
+{"realIdentity":"hashCode","signature":"public Integer hashCode()","doc":"","identity":"hashCode","type":"Integer","visibility":"public"}
+{"realIdentity":"indexOfAnyButString","signature":"public Integer indexOfAnyBut(String searchChars)","doc":"","identity":"indexOfAnyBut","type":"Integer","visibility":"public"}
+{"realIdentity":"indexOfAnyString","signature":"public Integer indexOfAny(String searchChars)","doc":"","identity":"indexOfAny","type":"Integer","visibility":"public"}
+{"realIdentity":"indexOfCharInteger","signature":"public Integer indexOfChar(Integer ch)","doc":"","identity":"indexOfChar","type":"Integer","visibility":"public"}
+{"realIdentity":"indexOfCharInteger, Integer","signature":"public Integer indexOfChar(Integer ch, Integer fromIndex)","doc":"","identity":"indexOfChar","type":"Integer","visibility":"public"}
+{"realIdentity":"indexOfDifferenceString","signature":"public Integer indexOfDifference(String other)","doc":"","identity":"indexOfDifference","type":"Integer","visibility":"public"}
+{"realIdentity":"indexOfIgnoreCaseString","signature":"public Integer indexOfIgnoreCase(String searchStr)","doc":"","identity":"indexOfIgnoreCase","type":"Integer","visibility":"public"}
+{"realIdentity":"indexOfIgnoreCaseString, Integer","signature":"public Integer indexOfIgnoreCase(String searchStr, Integer startPos)","doc":"","identity":"indexOfIgnoreCase","type":"Integer","visibility":"public"}
+{"realIdentity":"indexOfString","signature":"public Integer indexOf(String str)","doc":"","identity":"indexOf","type":"Integer","visibility":"public"}
+{"realIdentity":"indexOfString, Integer","signature":"public Integer indexOf(String str, Integer startPos)","doc":"","identity":"indexOf","type":"Integer","visibility":"public"}
+{"realIdentity":"isAllLowerCase","signature":"public Boolean isAllLowerCase()","doc":"","identity":"isAllLowerCase","type":"Boolean","visibility":"public"}
+{"realIdentity":"isAllUpperCase","signature":"public Boolean isAllUpperCase()","doc":"","identity":"isAllUpperCase","type":"Boolean","visibility":"public"}
+{"realIdentity":"isAlpha","signature":"public Boolean isAlpha()","doc":"","identity":"isAlpha","type":"Boolean","visibility":"public"}
+{"realIdentity":"isAlphaSpace","signature":"public Boolean isAlphaSpace()","doc":"","identity":"isAlphaSpace","type":"Boolean","visibility":"public"}
+{"realIdentity":"isAlphanumeric","signature":"public Boolean isAlphanumeric()","doc":"","identity":"isAlphanumeric","type":"Boolean","visibility":"public"}
+{"realIdentity":"isAlphanumericSpace","signature":"public Boolean isAlphanumericSpace()","doc":"","identity":"isAlphanumericSpace","type":"Boolean","visibility":"public"}
+{"realIdentity":"isAsciiPrintable","signature":"public Boolean isAsciiPrintable()","doc":"","identity":"isAsciiPrintable","type":"Boolean","visibility":"public"}
+{"realIdentity":"isNumeric","signature":"public Boolean isNumeric()","doc":"","identity":"isNumeric","type":"Boolean","visibility":"public"}
+{"realIdentity":"isNumericSpace","signature":"public Boolean isNumericSpace()","doc":"","identity":"isNumericSpace","type":"Boolean","visibility":"public"}
+{"realIdentity":"isWhitespace","signature":"public Boolean isWhitespace()","doc":"","identity":"isWhitespace","type":"Boolean","visibility":"public"}
+{"realIdentity":"lastIndexOfCharInteger","signature":"public Integer lastIndexOfChar(Integer ch)","doc":"","identity":"lastIndexOfChar","type":"Integer","visibility":"public"}
+{"realIdentity":"lastIndexOfCharInteger, Integer","signature":"public Integer lastIndexOfChar(Integer ch, Integer fromIndex)","doc":"","identity":"lastIndexOfChar","type":"Integer","visibility":"public"}
+{"realIdentity":"lastIndexOfIgnoreCaseString","signature":"public Integer lastIndexOfIgnoreCase(String searchStr)","doc":"","identity":"lastIndexOfIgnoreCase","type":"Integer","visibility":"public"}
+{"realIdentity":"lastIndexOfIgnoreCaseString, Integer","signature":"public Integer lastIndexOfIgnoreCase(String searchStr, Integer startPos)","doc":"","identity":"lastIndexOfIgnoreCase","type":"Integer","visibility":"public"}
+{"realIdentity":"lastIndexOfString","signature":"public Integer lastIndexOf(String str)","doc":"","identity":"lastIndexOf","type":"Integer","visibility":"public"}
+{"realIdentity":"lastIndexOfString, Integer","signature":"public Integer lastIndexOf(String searchStr, Integer startPos)","doc":"","identity":"lastIndexOf","type":"Integer","visibility":"public"}
+{"realIdentity":"leftInteger","signature":"public String left(Integer len)","doc":"","identity":"left","type":"String","visibility":"public"}
+{"realIdentity":"leftPadInteger","signature":"public String leftPad(Integer len)","doc":"","identity":"leftPad","type":"String","visibility":"public"}
+{"realIdentity":"leftPadInteger, String","signature":"public String leftPad(Integer len, String padStr)","doc":"","identity":"leftPad","type":"String","visibility":"public"}
+{"realIdentity":"length","signature":"public Integer length()","doc":"","identity":"length","type":"Integer","visibility":"public"}
+{"realIdentity":"midInteger, Integer","signature":"public String mid(Integer pos, Integer len)","doc":"","identity":"mid","type":"String","visibility":"public"}
+{"realIdentity":"normalizeSpace","signature":"public String normalizeSpace()","doc":"","identity":"normalizeSpace","type":"String","visibility":"public"}
+{"realIdentity":"offsetByCodePointsInteger, Integer","signature":"public Integer offsetByCodePoints(Integer index, Integer codePointOffset)","doc":"","identity":"offsetByCodePoints","type":"Integer","visibility":"public"}
+{"realIdentity":"overlayString, Integer, Integer","signature":"public String overlay(String overlay, Integer start, Integer end)","doc":"","identity":"overlay","type":"String","visibility":"public"}
+{"realIdentity":"removeEndIgnoreCaseString","signature":"public String removeEndIgnoreCase(String toRemove)","doc":"","identity":"removeEndIgnoreCase","type":"String","visibility":"public"}
+{"realIdentity":"removeEndString","signature":"public String removeEnd(String toRemove)","doc":"","identity":"removeEnd","type":"String","visibility":"public"}
+{"realIdentity":"removeStartIgnoreCaseString","signature":"public String removeStartIgnoreCase(String toRemove)","doc":"","identity":"removeStartIgnoreCase","type":"String","visibility":"public"}
+{"realIdentity":"removeStartString","signature":"public String removeStart(String toRemove)","doc":"","identity":"removeStart","type":"String","visibility":"public"}
+{"realIdentity":"removeString","signature":"public String remove(String toRemove)","doc":"","identity":"remove","type":"String","visibility":"public"}
+{"realIdentity":"repeatInteger","signature":"public String repeat(Integer numTimes)","doc":"","identity":"repeat","type":"String","visibility":"public"}
+{"realIdentity":"repeatString, Integer","signature":"public String repeat(String separator, Integer numTimes)","doc":"","identity":"repeat","type":"String","visibility":"public"}
+{"realIdentity":"replaceAllString, String","signature":"public String replaceAll(String regex, String replacement)","doc":"","identity":"replaceAll","type":"String","visibility":"public"}
+{"realIdentity":"replaceFirstString, String","signature":"public String replaceFirst(String regex, String replacement)","doc":"","identity":"replaceFirst","type":"String","visibility":"public"}
+{"realIdentity":"replaceString, String","signature":"public String replace(String target, String replacement)","doc":"","identity":"replace","type":"String","visibility":"public"}
+{"realIdentity":"reverse","signature":"public String reverse()","doc":"","identity":"reverse","type":"String","visibility":"public"}
+{"realIdentity":"rightInteger","signature":"public String right(Integer len)","doc":"","identity":"right","type":"String","visibility":"public"}
+{"realIdentity":"rightPadInteger","signature":"public String rightPad(Integer len)","doc":"","identity":"rightPad","type":"String","visibility":"public"}
+{"realIdentity":"rightPadInteger, String","signature":"public String rightPad(Integer len, String padStr)","doc":"","identity":"rightPad","type":"String","visibility":"public"}
+{"realIdentity":"splitByCharacterType","signature":"public List<String> splitByCharacterType()","doc":"","identity":"splitByCharacterType","type":"List<String>","visibility":"public"}
+{"realIdentity":"splitByCharacterTypeCamelCase","signature":"public List<String> splitByCharacterTypeCamelCase()","doc":"","identity":"splitByCharacterTypeCamelCase","type":"List<String>","visibility":"public"}
+{"realIdentity":"splitString","signature":"public List<String> split(String regex)","doc":"","identity":"split","type":"List<String>","visibility":"public"}
+{"realIdentity":"splitString, Integer","signature":"public List<String> split(String regex, Integer limit)","doc":"","identity":"split","type":"List<String>","visibility":"public"}
+{"realIdentity":"startsWithIgnoreCaseString","signature":"public Boolean startsWithIgnoreCase(String prefix)","doc":"","identity":"startsWithIgnoreCase","type":"Boolean","visibility":"public"}
+{"realIdentity":"startsWithString","signature":"public Boolean startsWith(String str)","doc":"","identity":"startsWith","type":"Boolean","visibility":"public"}
+{"realIdentity":"stripHtmlTags","signature":"public String stripHtmlTags()","doc":"","identity":"stripHtmlTags","type":"String","visibility":"public"}
+{"realIdentity":"substringAfterLastString","signature":"public String substringAfterLast(String separator)","doc":"","identity":"substringAfterLast","type":"String","visibility":"public"}
+{"realIdentity":"substringAfterString","signature":"public String substringAfter(String separator)","doc":"","identity":"substringAfter","type":"String","visibility":"public"}
+{"realIdentity":"substringBeforeLastString","signature":"public String substringBeforeLast(String separator)","doc":"","identity":"substringBeforeLast","type":"String","visibility":"public"}
+{"realIdentity":"substringBeforeString","signature":"public String substringBefore(String separator)","doc":"","identity":"substringBefore","type":"String","visibility":"public"}
+{"realIdentity":"substringBetweenString","signature":"public String substringBetween(String tag)","doc":"","identity":"substringBetween","type":"String","visibility":"public"}
+{"realIdentity":"substringBetweenString, String","signature":"public String substringBetween(String open, String close)","doc":"","identity":"substringBetween","type":"String","visibility":"public"}
+{"realIdentity":"substringInteger","signature":"public String substring(Integer start)","doc":"","identity":"substring","type":"String","visibility":"public"}
+{"realIdentity":"substringInteger, Integer","signature":"public String substring(Integer start, Integer end)","doc":"","identity":"substring","type":"String","visibility":"public"}
+{"realIdentity":"swapCase","signature":"public String swapCase()","doc":"","identity":"swapCase","type":"String","visibility":"public"}
+{"realIdentity":"toLowerCase","signature":"public String toLowerCase()","doc":"","identity":"toLowerCase","type":"String","visibility":"public"}
+{"realIdentity":"toLowerCaseString","signature":"public String toLowerCase(String locale)","doc":"","identity":"toLowerCase","type":"String","visibility":"public"}
+{"realIdentity":"toUpperCase","signature":"public String toUpperCase()","doc":"","identity":"toUpperCase","type":"String","visibility":"public"}
+{"realIdentity":"toUpperCaseString","signature":"public String toUpperCase(String locale)","doc":"","identity":"toUpperCase","type":"String","visibility":"public"}
+{"realIdentity":"trim","signature":"public String trim()","doc":"","identity":"trim","type":"String","visibility":"public"}
+{"realIdentity":"uncapitalize","signature":"public String uncapitalize()","doc":"","identity":"uncapitalize","type":"String","visibility":"public"}
+{"realIdentity":"unescapeCsv","signature":"public String unescapeCsv()","doc":"","identity":"unescapeCsv","type":"String","visibility":"public"}
+{"realIdentity":"unescapeEcmaScript","signature":"public String unescapeEcmaScript()","doc":"","identity":"unescapeEcmaScript","type":"String","visibility":"public"}
+{"realIdentity":"unescapeHtml3","signature":"public String unescapeHtml3()","doc":"","identity":"unescapeHtml3","type":"String","visibility":"public"}
+{"realIdentity":"unescapeHtml4","signature":"public String unescapeHtml4()","doc":"","identity":"unescapeHtml4","type":"String","visibility":"public"}
+{"realIdentity":"unescapeJava","signature":"public String unescapeJava()","doc":"","identity":"unescapeJava","type":"String","visibility":"public"}
+{"realIdentity":"unescapeUnicode","signature":"public String unescapeUnicode()","doc":"","identity":"unescapeUnicode","type":"String","visibility":"public"}
+{"realIdentity":"unescapeXml","signature":"public String unescapeXml()","doc":"","identity":"unescapeXml","type":"String","visibility":"public"}

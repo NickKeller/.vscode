@@ -1,0 +1,32 @@
+{
+	"messages": [
+		"Select a script",
+		"No loaded scripts available",
+		"Pick the node.js or gulp process to attach to",
+		"Launch Program",
+		"Attach to Port",
+		"Debugging with legacy protocol because a runtime executable is set.",
+		"Debugging with inspector protocol because Node {0} was detected.",
+		"Debugging with legacy protocol because Node {0} was detected.",
+		"Debugging with legacy protocol because Node version could not be determined.",
+		"Debugging with legacy protocol because attaching to a process by ID is only supported for legacy protocol.",
+		"Debugging with inspector protocol because it was detected.",
+		"Debugging with legacy protocol because it was detected.",
+		"Debugging with legacy protocol because Node version could not be determined: {0}"
+	],
+	"keys": [
+		"select.script",
+		"no.loaded.scripts",
+		"pickNodeProcess",
+		"node.launch.config.name",
+		"node.attach.config.name",
+		"protocol.switch.runtime.set",
+		"protocol.switch.inspector.version",
+		"protocol.switch.legacy.version",
+		"protocol.switch.unknown.version",
+		"protocol.switch.attach.process",
+		"protocol.switch.inspector.detected",
+		"protocol.switch.legacy.detected",
+		"protocol.switch.unknown.error"
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"name": "apex",
+	"displayName": "Apex",
+	"description": "Salesforce Apex",
+	"version": "0.0.2",
+	"publisher": "JohnAaronNelson",
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"icon": "images/salesforce_logo.png",
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "apex",
+				"aliases": [
+					"Apex",
+					"apex"
+				],
+				"extensions": [
+					".cls",
+					".trigger"
+				],
+				"configuration": "./apex.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "apex",
+				"scopeName": "source.apex",
+				"path": "./syntaxes/apex.plist"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "7dadfc75-9e8c-4592-bdf9-507d0b251b74",
+		"publisherId": "455301ea-1fd3-4f22-bc69-9c4cdb15c9d9",
+		"publisherDisplayName": "JohnAaronNelson"
+	}
+}

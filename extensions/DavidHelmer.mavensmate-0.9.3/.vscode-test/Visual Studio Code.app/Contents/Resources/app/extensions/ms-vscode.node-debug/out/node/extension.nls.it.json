@@ -1,0 +1,15 @@
+[
+	"Selezionare uno script",
+	"Non sono disponibili script caricati",
+	"Selezionare il processo node.js o gulp a cui collegarsi",
+	"Avvia programma",
+	"Collega a porta",
+	"Debug con protocollo legacy perché è impostato un eseguibile di runtime.",
+	"Debug con protocollo inspector perché è stato rilevato Node {0}.",
+	"Debug con protocollo legacy perché è stato rilevato Node {0}.",
+	"Debug con protocollo legacy perché non è stato possibile determinare la versione di Node.",
+	"Il debug verrà eseguito con il protocollo legacy perché il collegamento a un processo in base all'ID è supportato solo per il protocollo legacy.",
+	"Debug con protocollo inspector perché è stato rilevato.",
+	"Debug con protocollo legacy perché è stato rilevato.",
+	"Debug con protocollo legacy perché non è stato possibile determinare la versione di Node: {0}"
+]
